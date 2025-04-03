@@ -1,6 +1,18 @@
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(current_dir)
+
+import streamlit as st
+import random
+import time
+from utils.game_logic import (
+    get_valid_word,
+    get_hint,
+    is_valid_word,
+    get_definition,
+    load_word_list,
+)
 
 import streamlit as st
 import random
