@@ -94,4 +94,4 @@ with tabs[0]:
 # === MCU MODE STUB === #
 with tabs[1]:
     st.title("🦸 Theo’s Word Game – MCU Mode")
-    st.markdown("Coming soon: battle Iron Man, Hulk, and Thanos with Marvel words!")
+    st.markdown("Coming soon: battle Iron Man, Hulk, and Thanos with Marvel words! BRING MEEEEE THANOSSSSSS!!!")
